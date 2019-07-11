@@ -1,0 +1,62 @@
+	/*注册容器*/
+	body section{
+	         width:1000px;height:800px;
+			 margin:0px auto;
+	         background:#fff url(../img/register/1.jpg) no-repeat center center;
+			 background-size:cover;
+	}
+	/*注册框*/
+	aside{
+	      width:300px;height:350px;
+	      background-color:rgba(1,1,1,0.3);
+		  margin-top:200px;
+		  margin-left:50px;
+		  border:1px solid transparent;
+		  border-radius:5px;
+	}
+	/*注册表格*/
+	aside>table{
+	      width:100%;height:70%;
+	}
+	/*用户注册四个字*/
+    aside>table th{
+          font:normal 900 24px 黑体;
+		  height:50px;
+		  color:white;
+		  line-height:50px;
+    }
+	/*用户密码控件 注意用border-box*/
+    table input{
+	      border:1px solid transparent;
+		  border-radius:5px;
+          width:100%;height:38px;
+          padding-left:10px;
+		  box-sizing:border-box;
+    }
+	/*提交按钮*/
+	button{
+	      border:1px solid transparent;
+		  border-radius:5px;
+          width:100%;height:38px;
+	      color:white;
+		  background-color:#86cfef;
+	}
+	button:hover{
+	     cursor:pointer;
+		 background-color:#11cfef;
+		 color:yellow;
+	}
+	table div{
+	      height:30px;
+	      font-size:12px;
+	      color:#fff;
+	}
+	
+	a{
+	    text-decoration:none;
+		color:white;
+	}
+	.s1>a:hover{
+	   color:lightgreen;
+	}
+	

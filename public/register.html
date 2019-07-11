@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin:0px;padding:0px;}
+	</style>
+	<link rel="stylesheet" href="css/register.css">
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/regsiter.js"></script>
+</head>
+<body>
+<!--HTML代码HTML代码HTML代码-->
+	<section>
+	   <!--防止子元素影响父元素上外边距溢出 加table-->
+	   <table></table>
+	  <aside>
+	      <table>
+		      <tr>
+	      	    <th colspan='2'>用户注册</th>	
+	      	</tr>
+              <!--用户-->
+	      	<tr>
+	      		  <td colspan='2'><input type="text" id='uname' placeholder='用户名'></td>
+	      	</tr>
+			    <tr>
+					    <!--用户名字提示-->
+			        <td colspan='2'><div id='name'></div></td>
+			    </tr>
+             <!--密码-->	
+	      	<tr>
+	      		  <td colspan='2'><input type="password" id='upwd' placeholder='用户密码'></td>
+	      	</tr>
+          <tr>
+					    <!--密码提示-->
+			        <td colspan='2'><div id='pwd'></div></td>
+			    </tr>
+
+
+            <!--提交数据-->
+	      	<tr>
+	      		  <td colspan='2'><button>提交注册</button></td>
+	      	</tr>
+
+            <!--忘记密码/点击登录-->
+		    	<tr>
+				      <td class='s1'><a href="login.html" target='_blank'>点击登录</a></td>
+			    </tr>
+	      </table>
+	  </aside>
+	</section>
+
+</body>
+</html>

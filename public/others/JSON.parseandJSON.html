@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	 //JSON.parse和JSON.stringify的用法和区别
+	 //json格式的对象和数组和字符串:{"name":"hahah"}/["name","name"]/  '{"name":"hahah"}'
+	 //JSON.parse把一个json字符串变成普通js对象
+	 var a='{"name":"hahah"}';//
+	 var b=JSON.parse(a);
+	 console.log(b);
+	 //{name: "hahah"}
+
+  //JSON.stringify把一个普通js对象变成json字符串
+   var c={b:1,c:1};
+	 var d=JSON.stringify(c);
+	 console.log(d);
+	 //{"b":1,"c":1} 实际上时'{"b":1,"c":1}'
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,602 @@
+/*通用样式*/
+/*.home__block-hover{
+  :hover{
+   box-shadow:10px 10px 5px black;
+  }
+}*/
+
+/*header头部*/
+.tb_header{
+   width:1920px;
+   height:61px;
+   position:relative;
+   top:0px;
+   left:0px;
+}
+/*header头部:中线*/
+.middleline{
+  position:absolute;
+  top:30px;
+  z-index:1;
+  height:1px;
+  width:100%;
+  background:yellow;
+}
+/*header头部:底线*/
+.buttonline{
+  position:absolute;
+  top:61px;
+  z-index:1;
+  height:1px;
+  width:100%;
+  background:blue;
+}
+
+/*header头部:logo*/
+.tb-header__logo-box{
+   width:261px;height:61px;
+      z-index:110;
+}
+.tb-header__logo-box img{
+   margin-top:20px;
+   margin-left:35px;
+ 
+
+}
+/*header头部:导航*/
+.tb-header__nav-box{
+  position:absolute;
+  height:61px;
+  width:900px;
+  top:0%;
+  left:12%;
+  background:#3264BF;
+}
+.tb-header__nav-box>ul{
+  position:absolute;
+  top:0px;
+  left:300px;
+  margin:0;
+  height:61px;
+  width:800px;
+  background:#3264BF;
+
+}
+.tb-header__nav-box>ul>li{
+   position:relative;
+   float:left;
+   height:30px;
+   margin:15px 10px;
+   font-size:16px;
+   background:#4985F2;
+   border-radius:15px;
+   z-index:10;
+
+}
+.tb-header__nav-box>ul>li>a{
+   text-decoration:none;
+   display:inline-block;
+   color:white;
+   width:60px;
+   text-align:center;
+   line-height:30px; 
+}
+.tb-header__nav-box>ul>li:hover{
+   background:#1985F2;
+}
+
+/*header头部:搜索*/
+.tb-header__search-box{
+  position:absolute;
+  top:0%;
+  left:1369px;
+  width:300px;
+  height:61px;
+  background:#3264BF;
+}
+/*搜索栏*/
+.tb-header__search-box>input{
+  position:absolute;
+  top:16px;
+  left:0px;
+  outline:none;
+  border:0px;
+  padding-left:10px;
+  height:25px;
+  width:200px;
+  border-radius:20px;
+  z-index:10;
+  transition:all 1s;
+}
+/*搜索栏焦点事件*/
+.tb-header__search-box>input:focus{
+  width:600px;
+  left:-400px;
+}
+.tb-header__search-box>a>img{
+   position:absolute;
+   top:22px;
+   left:188px;
+   z-index:10;
+}
+
+/*header头部:注册登录*/
+.tb-header__login{
+  position:absolute;
+  top:0%;
+  left:1649px;
+  width:270px;
+  height:61px;
+  background:#3264BF;
+}
+
+/*注册登录*/
+.tb-header__login>a{
+ text-decoration:none;
+ color:white;
+ font-size:20px;
+ display:inline-block;
+ margin-top:15px;
+ margin-right:70px;
+}
+.tb-header__login>a:hover{
+ color:yellow;
+}
+#usershow{
+  font-size: 30px;
+  color:white;
+  display:block;
+  margin-top:10px;
+}
+
+
+
+
+/*轮播图banner 为了加黑色框儿单独做的*/
+.homebanner{
+   position:relative;
+   width:100%
+   height:414px;
+   background:#242833;
+   padding-left:45px;
+   padding-top:40px;
+   padding-bottom:65px; 
+}
+/*轮播图banner:指示器左右*/
+.homebanner_indicator_left{
+  width:40px;
+  border-radius:20px;
+  position:absolute;
+  top:212px;
+  left:5px;
+}
+.homebanner_indicator_right{
+  width:40px;
+  border-radius:20px;
+  position:absolute;
+  top:212px;
+  left:1862px;
+}
+/*轮播图banner:banner爷爷*/
+.swiper-container-banner{
+   width:1816px;
+   height:414px;
+  
+   overflow:hidden;
+}
+/*轮播图banner:爸爸*/
+.container{
+  height:414px;
+
+} 
+/*.container>div:nth-child(4){
+  width:1816px;
+  height:414px;
+  float:left;
+}*/
+/*轮播图banner:儿子们*/
+.smallbanner{
+ width:352px;
+ height:414px;
+ float:left;
+ margin:0px 4px;
+ position:relative;
+}
+.smallbanner img{
+  transition:all 1s;
+}
+.smallbanner img:hover{
+   transform:scale(1.1,1.1);
+}
+.bigbanner{
+ width:720px;
+ height:414px;
+ background:green;
+ float:left;
+ margin:0px 4px;
+ position:relative;
+ overflow:hidden;
+}
+.bigbanner img{
+  transition:all 1s;
+}
+.bigbanner img:hover{
+   transform:scale(1.1,1.1);
+}
+
+/*轮播图banner:指示器下*/
+.homebanner_indicator_bottom{
+  position:absolute;
+  top:472px;
+  left:835px;
+  width:1920px;
+  height:30px;
+}
+.homebanner_indicator_bottom>span{
+  display:inline-block;
+  background:white;
+  margin-right:10px;
+  border-radius:10px;
+  width:40px;height:15px;
+}
+
+
+/*HOMEGAME*/
+.home_game{
+  width:1920px;
+  height:416px;
+  background:#F2F6FC;
+}
+/*广告位*/
+#SG_GG_CONTAINER_413{
+  width:970px;
+  height:90px;
+  padding-left:475px;
+  position:relative;
+}
+#SG_GG_CONTAINER_413 .SG_GG_CONTAINER_413-1{
+ margin-top:30px;
+}
+#SG_GG_CONTAINER_413 .SG_GG_CONTAINER_413-2{
+ position:absolute;
+ top:30px;
+}
+
+/*HOMEGAME:游戏内容*/
+.home-game__content{
+  width:1200px;
+  height:204px;
+  margin:auto;
+  margin-top:50px;
+}
+.home-game__content:after{
+  content:"";
+  display:block;
+}
+/*HOMEGAME:游戏内容:游戏卡片*/
+.home-game__content>.home-list-card{
+  margin:0px;padding:0px;
+  width:800px;
+  height:204px;
+  float:left;
+ 
+}
+.home-game__content>.home-list-card>li{
+ width:112px;height:100px;
+ float:left;
+}
+.home-game__content>.home-list-card>li:hover{
+ position:relative;
+ top:1px;
+}
+.home-game__content>.home-list-card>li img:hover{
+box-shadow:0px 1px 1px #000;
+}
+/*HOMEGAME:游戏内容:游戏列表1*/
+.home-game__content>.home-list-first{
+  float:left;
+}
+.home-game__content>.home-list-first>.home-list-first-container{
+  display:flex;
+  margin:0px;padding:0px;
+  width:400px;
+  height:204px;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.home-game__content>.home-list-first>.home-list-first-container>div{
+ font-size:13px;
+ width:90px;
+ height:26px;
+ background:#fff;
+ text-align:center;
+ border-radius:2px;
+ line-height:26px;
+ overflow:hidden;
+}
+.home-game__content>.home-list-first>.home-list-first-container>div>a{
+ text-decoration:none;
+}
+/*阴影效果*/
+.home-game__content>.home-list-first>.home-list-first-container>div:hover{
+   box-shadow:1px 1px 5px black;
+ }
+
+
+/*资讯中心*/
+div.home_main{
+ width:1200px;height:814.23px;
+ margin:0 auto;
+}
+div.home_main>.tb_row{
+ width:1200px;height:734.27px;
+ position:relative;
+}
+
+
+/*资讯1块*/
+div.home_main>.tb_row>.data_container1{
+ width:399px;height:497px;
+}
+div.home_main>.tb_row>.data_container1 div{
+  width:369px;height:31px;
+  overflow:hidden;
+}
+div.home_main>.tb_row>.data_container1>div>a{
+  color:#3A3C40;
+}
+div.home_main>.tb_row>.data_container1>div>a:hover{
+  color:blue;
+}
+/*前面的点*/
+div.home_main>.tb_row>.data_container1 div:before{
+  display:inline-block;
+  content:"";
+  width:6px;
+  height:6px;
+  border-radius:0;
+  background:rgba(11,11,11,0.3);
+}
+
+div.home_main>.tb_row>.data_container1>div:first-child{
+  overflow:hidden;
+  width:379px;height:31px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+div.home_main>.tb_row>.data_container1>div:first-child>a{
+   color:blue;
+}
+div.home_main>.tb_row>.data_container1>div:nth-child(5){
+    margin-bottom:10px;
+}
+
+/*资讯2块*/
+div.home_main>.tb_row>.data_container2{
+ width:399px;height:497px;
+ position:absolute;
+ top:30px;
+ left:399px
+}
+
+div.home_main>.tb_row>.data_container2 div{
+  width:369px;height:31px;
+  overflow:hidden;
+}
+div.home_main>.tb_row>.data_container2>div>a{
+  color:#3A3C40;
+}
+div.home_main>.tb_row>.data_container2>div>a:hover{
+  color:blue;
+}
+
+/*前面的点*/
+div.home_main>.tb_row>.data_container2 div:before{
+  display:inline-block;
+  content:"";
+  width:6px;
+  height:6px;
+  border-radius:0;
+  background:rgba(11,11,11,0.3);
+}
+
+div.home_main>.tb_row>.data_container2>div:first-child{
+  overflow:hidden;
+  width:379px;height:31px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+div.home_main>.tb_row>.data_container2>div:first-child>a{
+   color:blue;
+}
+div.home_main>.tb_row>.data_container2>div:nth-child(5){
+    margin-bottom:10px;
+}
+
+/*资讯4块*/
+/*标题*/
+div.home_main>.tb_row>.data_container4{
+ width:399px;height:698px;
+ position:absolute;
+ top:30px;
+ left:798px
+}
+#gameboxall{
+  margin-top:6px;
+  padding-left:20px;
+}
+#gameboxall>li{
+  cursor:pointer;
+  float:left;
+  border:1px solid rgba(30,23,15,0.5);
+  border-radius:15px;
+  margin-right:10px;
+  font-size:15px;
+  padding:5px;
+  height:15px;
+  width:50px;
+  line-height:15px;
+  text-align:center;
+}
+#gameboxall>li:hover{
+  background:rgba(300,23,15,0.5)
+}
+#gameboxall>li:first-child{
+  margin-left:-20px;
+}
+/*内容*/
+/*内容全部*/
+.none{
+  display:none;
+}
+.game_box_containerAll{
+ padding-left:0px;
+}
+.game_box_containerAll>li{
+ width:390px;height:70px;
+ border-bottom:1px solid rgba(32,23,23,0.4);
+ margin-bottom:15px;
+}
+.game_box_containerAll>li>a{
+  color:black;
+}
+.game_box_containerAll>li>a:hover{
+  color:blue;
+}
+/*内容switch*/
+/*内容ps4*/
+/*内容xbox*/
+/*内容pc*/
+
+
+/*资讯3块*/
+div.home_main>.tb_row>.data_container3{
+width:799px;height:159px;
+position:absolute;
+ top:517px;
+ left:0px;
+}
+div.home_main>.tb_row>.data_container3>img{
+   margin-right:40px;
+}
+
+
+/*游戏榜单*/
+.home_billboard{
+  width:1903px;height:950px;
+  background:#242833;
+}
+.home_main_billboard{
+  margin:auto;
+  padding:40px 0px;
+  width:1200px;height:830px;
+  
+}
+.home_main_billboard_son{
+   width:380px;height:830px;
+   float:left;
+   margin:10px;
+}
+/*游戏榜单 标题*/
+.home_main_billboard_son_title{
+   width:380px;height:53px;
+   margin:0px;
+}
+/*游戏榜单 标题 文字 底部边框*/
+.home_main_billboard_son_title>span{
+  display:inline-block;
+  font-size:24px;
+  color:white;
+  height:43px;
+  border-bottom:2px solid #4985f2;
+}
+/*游戏榜单 内容ul*/
+.home_main_billboard_son-list{
+  list-style:none;
+  box-sizing:border-box;
+  padding:0px;
+  margin:0px;
+  height:100%
+  
+}
+
+/*游戏榜单 内容ul 的li*/
+.home_main_billboard_son-list>li.home_main_billboard_son-list_li{
+  height:72px;
+  width:100%;
+ 
+}
+.home_main_billboard_son-list>li{
+  background:#292e3b;
+   border-bottom:1px solid #323847;
+}
+.home_main_billboard_son-list>li>a{
+  text-decoration:none;
+  display:inline-block;
+  box-sizing:border-box;
+  width:100%;height:100%;
+  padding: 10px 20px 10px 0;
+ 
+}
+
+/*游戏榜单 内容ul 的li 第一个div*/
+.home_main_billboard_son-list_1{
+  width:18%;height:100%;
+  float:left;
+  margin-right:5px;
+}
+/*游戏榜单 内容ul 的li 第一个div 的span*/
+.home_main_billboard_son-list_1>span{
+  display:inline-block;
+  width:60px;height:24px;
+  background:#4884f2;
+  text-align:center;
+  font-size:18px;
+  color:white;
+  border-radius:5px;
+}
+/*游戏榜单 内容ul 的li 第二个i*/
+.home_main_billboard_son-list_2{
+  width:13%;height:95%;
+  float:left;
+  margin-right:10px;
+  border-radius:2px;
+  /*transition:all 1s;*/
+}
+/*.home_main_billboard_son-list_2:hover{
+  transform:rotate(360deg);
+  
+}*/
+/*游戏榜单 内容ul 的li 第三个div*/
+.home_main_billboard_son-list_3{
+  width:40%;height:100%;
+  float:left;
+  margin-right:5px;
+}
+.home_main_billboard_son-list_3 p{
+   margin:0px;
+   padding:0px;
+   color:white;
+   font-size:12px;
+   opacity:0.9;
+}
+/*一直展现的标题*/
+.home_main_billboard_son-list_3 p:first-child{
+   font-size:16px;
+} 
+/*平时隐藏 mouseenter显现*/
+.home_main_billboard_son-list_3_son{
+  display:none;
+}
+.height1{
+ height:120px;
+ 
+}
+.width1{
+  width:25%;
+}
+.show{
+  display:block;
+}

@@ -1,0 +1,137 @@
+ /*headerͷ��*/
+#header .tb_header{
+   width:1920px;
+   height:61px;
+   position:relative;
+   top:0px;
+   left:0px;
+}
+/*headerͷ��:����*/
+#header .middleline{
+  position:absolute;
+  top:30px;
+  z-index:1;
+  height:1px;
+  width:100%;
+  background:yellow;
+}
+/*headerͷ��:����*/
+#header .buttonline{
+  position:absolute;
+  top:61px;
+  z-index:1;
+  height:1px;
+  width:100%;
+  background:blue;
+}
+
+/*headerͷ��:logo*/
+#header .tb-header__logo-box{
+   width:261px;height:61px;
+      z-index:110;
+}
+#header .tb-header__logo-box img{
+   margin-top:20px;
+   margin-left:35px;
+ 
+
+}
+/*headerͷ��:����*/
+#header .tb-header__nav-box{
+  position:absolute;
+  height:61px;
+  width:900px;
+  top:0%;
+  left:12%;
+  background:#3264BF;
+}
+#header .tb-header__nav-box>ul{
+  position:absolute;
+  top:0px;
+  left:300px;
+  margin:0;
+  height:61px;
+  width:800px;
+  background:#3264BF;
+
+}
+#header .tb-header__nav-box>ul>li{
+   position:relative;
+   float:left;
+   height:30px;
+   margin:15px 10px;
+   font-size:16px;
+   background:#4985F2;
+   border-radius:15px;
+   z-index:10;
+
+}
+#header .tb-header__nav-box>ul>li>a{
+   text-decoration:none;
+   display:inline-block;
+   color:white;
+   width:60px;
+   text-align:center;
+   line-height:30px; 
+}
+#header .tb-header__nav-box>ul>li:hover{
+   background:#1985F2;
+}
+
+/*headerͷ��:����*/
+#header .tb-header__search-box{
+  position:absolute;
+  top:0%;
+  left:1330px;
+  width:322px;
+  height:61px;
+  background:#3264BF;
+}
+#header .tb-header__search-box>input{
+  position:relative;
+  outline:none;
+  border:0px;
+  padding-left:10px;
+  margin-top:15px;
+  height:25px;
+  width:200px;
+  border-radius:20px;
+  z-index:10;
+}
+#header .tb-header__search-box>a>img{
+   position:absolute;
+   top:22px;
+   left:188px;
+   z-index:10;
+}
+
+/*headerͷ��:ע���¼*/
+#header .tb-header__login{
+  position:absolute;
+  top:0%;
+  left:1649px;
+  width:270px;
+  height:61px;
+  background:#3264BF;
+}
+
+/*ע���¼*/
+#header .tb-header__login>a{
+ text-decoration:none;
+ color:white;
+ font-size:20px;
+ display:inline-block;
+ margin-top:15px;
+ margin-right:70px;
+}
+#header .tb-header__login>a:hover{
+ color:yellow;
+}	
+
+#usershow{
+   position: absolute;
+   top:11px;
+   right:150px;
+   font-size:24px;
+   color:white;
+}
